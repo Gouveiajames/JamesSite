@@ -1,0 +1,43 @@
+.navbar {
+    display: flex;
+    background-color: rgb(44, 42, 42);
+    height: 50px;
+    font-size: 25px;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-evenly; 
+    
+}
+
+a {
+    color: white;
+}
+
+body {
+    background-color: rgb(195, 236, 212);
+}
+
+footer {
+    padding-top: 3em;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.50em;
+}
+
+h2 {
+    text-align: center;
+}
+
+img {
+    padding-left: 41.0%;   
+}
+
+p {
+    text-align: center;
+}
+
+
+
