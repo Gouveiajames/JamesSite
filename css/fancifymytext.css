@@ -1,0 +1,12 @@
+fieldset {
+    border: .25em solid black
+}
+
+body {
+    background-color: rgb(180, 180, 192);
+    font-size: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
