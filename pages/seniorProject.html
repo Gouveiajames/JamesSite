@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8" />
+        <title>James Gouveia Programmer/Investor/Race Car Driver</title>
+        <link rel="stylesheet" href="../css/seniorProject.css">
+    </head>
+    <body>
+        <nav class="navbar"><a href="https://gouveiajames.github.io/JamesSite/">Home</a>
+                            <a href="investor.html">Investor</a>
+                            <a href="compSci.html">Computer Science Student</a>
+                            <a href="raceCarDriver.html">Race Car Driver</a>
+                            <a href="assignments.html">Recent Assignments</a>
+        </nav>
+        <article>
+            <h1>Mamma Donna's Daycare a React.js app</h1>
+            <p>California State University Sacramento requires all Computer Science students to create a final project.
+            This capstone project is intended to give students an opportunity to solve a real-world problem
+            using real world techniques such as Scrum and the Agile methodology.  My team consisted of 
+            a team of 8 students.  We named our team the NULL Pointers!  We found a client, Donna, who needed a
+            software solution to run her small day care.  The team took up the project!  Over the course of two 
+            semesters, we went from wireframes and diagrams to a working web app!  Please see below for more 
+            specific information about this project.</p>
+            
+            <img src="../pics/logIn.jpg" alt="Pic of the app log in">
+            <h2>Problem:</h2>
+            <p>Donna needs an all-in-one day care business management solution for a home based day care</p>
+            <h2>Requirements:</h2>
+            <ul>
+                <li>Child Record Keeping
+                    <ul>
+                        <li>Attendance Log</li>
+                        <li>Student Records</li>
+                        <li>Breathing Check Log</li>
+                        <li>Diaper Check Log</li>
+                    </ul>
+                <li>Accounting</li>
+                    <ul>
+                        <li>Basic Bookeeping - Income/Expense</li>
+                        <li>Automatic Invoicing</li>
+                        <li>Accept Pay Pal payment</li>
+                    </ul>
+                <li>Scheduling Tool</li>
+                    <ul>
+                        <li>Accept/Deny Requests</li>
+                        <li>Maintain a schedule of planned student attendance</li>
+                    </ul>
+                <li>Client Communication</li>
+                    <ul>
+                        <li>Ability to send/receive messages from clients</li>
+                        <li>Ability to send daily lesson plans to clients</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h2>Solution:</h2>
+            <p>The team explored many options from a cell phone app to a web solution.  We settled on a web app 
+            for several reasons.  A phone app has a cost associated with it to be hosted on the app store and 
+            every penny counts for a new business.  The other major consideration was incompatibility between
+            the framework we wanted to use, and the language needed to build an app that works on Android or 
+            IOS.  With these considerations in mind, we decided to build a web app using Firebase.  Firebase
+            has built in authentication and an easy interface to the backend database.  In addition, for 
+            the application we intended the service would be free to host and run which is mission critical
+            for our small business application.
+            </p>
+
+            <h2>Architecture:</h2>
+            <p>Each of the core functions such as messaging, or logs have their own separate pages of code. The 
+            pages are connected to either the admin or client portal.  We did our best to not repeat code 
+            and modularize the app as much as possible.  We made use of helper functions such as hooks to 
+            help prevent redundant code. Here is a snapshot of the code organization:
+            </p>
+
+            <img src="../pics/file_structure.jpg" width="100" height="300" alt="Pic of the program file structure" >
+            <h2>Admin Portal:</h2>
+            <img src="../pics/adminPortal.jpg" alt="Pic of the admin portal" >
+            <h2>Client Portal:</h2>
+            <img src="../pics/clientPortal.jpg" alt="Pic of the client portal" >
+            <h2>Backend:</h2>
+            <img src="../pics/backend.jpg" alt="Pic of the app's backend" >
+            <footer>Copyright@James Gouveia, Get in touch: gouveiafjames@gmail.com</footer>
+    </article>
+    </body>
+</html>
